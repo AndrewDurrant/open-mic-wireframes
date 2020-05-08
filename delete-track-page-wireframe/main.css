@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: grey;
+  padding: 1rem;
+}
+
+.user-nav1 {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem;
+}
+
+.upload {
+  background-color: lightgrey;
+  padding: .5rem;
+}
+
+.user-photo {
+  background-color: lightgrey;
+  padding: 1rem;
+  border-radius: 100%;
+}
+
+.stage-container {
+  width: 100%;
+  min-height: 30rem;
+  background-color: lightgrey;
+}
+
+.view-selections {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-around;
+  list-style: none;
+  border-bottom: 1px solid;
+}
+
+.music-nav-active {
+  background-color: darkgrey;
+  padding: 5px;
+  font-weight: 900;
+}
+
+.stage-carousel {
+  margin: 4rem;
+  position: relative;
+}
+
+.prev {
+  position: absolute;
+  top: 50%;
+  left: -10px;
+}
+
+.next {
+  position: absolute;
+  top: 50%;
+  right: -10px;
+}
+
+.current-performer {
+  margin: 4rem auto;
+}
+
+.like-btn {
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.performer-photo {
+  display: block;
+  margin: 0 auto;
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  background-color: darkgrey;
+  padding: 1.9rem;
+}
+
+.song-description {
+  margin: .5rem;
+  padding: .5rem;
+  background-color: darkgrey;
+}
+
+.player-controls {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.delete-button {
+  display: block;
+  margin: 1rem auto;
+  background-color: slategray;
+  padding: 5px;
+}

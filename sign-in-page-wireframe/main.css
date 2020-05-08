@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: grey;
+  padding: 1rem;
+}
+
+.form-container {
+  padding: 2rem;
+  margin: 10rem auto;
+  width: 80%;
+  height: 20rem;
+  background-color: lightgrey;
+}
+
+.input-group {
+  margin: 1rem;
+}
+
+.user-submit {
+  display: block;
+  padding: 1rem 2rem;
+  margin: 2rem auto 0;
+  font-size: 1.2rem;
+  background-color: rgb(136, 133, 133);
+}
